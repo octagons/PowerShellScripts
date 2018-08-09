@@ -4,9 +4,9 @@ function Get-NetStat
 {
 <#
 .SYNOPSIS
-    This function will get the output of netstat and parse the output
+    Enumerate network connections with win32 APIs.
 .DESCRIPTION
-    This function will get the output of netstat and parse the output.
+    This function obtains information about the hosts's current network using pure win32 API calls.
     Credit for the connection enumeration snippet: http://techibee.com/powershell/query-list-of-active-tcp-connections-in-windows-using-powershell/2341
 .PARAMETER ResolveForeign
     Switch. Specifies whether to resolve the foreign addresses (Default: Disabled)
